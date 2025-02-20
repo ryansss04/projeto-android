@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+CONFIGURAÇÕES GLOBAIS: TAGS QUE FALTARAM NA CONSTRUÇÃO DO SITE 
+
+MARGIN:0px
+padding:0px
+
+:root{
+--cor0::
+--cor1
+--cor2
+--cor3
+--cor4
+--cor5
+
+fonte padrao: arial,verdana, sans serif
+--fonte destaque: 'bebas neue', cursive
+--fonte aindroid:android, cursive 
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: rgba(101, 153, 101, 0.473);
+    
+
+}
+img{
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to top, rgba(19, 53, 29, 0.767), rgba(5, 187, 5, 0.685));
+    width: 100%;
+    padding: 10px 0;
+}
+header>ul{
+    text-align: left;
+    padding: 10px;
+    
+    
+}
+header>ul>a{
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .4s;
+}
+header>ul>a:hover{
+    background-color: darkslateblue;
+}
+header>h1{
+    color: white;
+}
+header>h2{
+    font-size: small;
+    color: white;
+}
+main{
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom: 10px;
+    box-shadow: 5px 10px 15px #5742349d;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    
+}
+main>img{
+    width: 100%;
+}
+
+main>h1{
+    font-family: idroid;
+    color: green;
+}
+.pequena>img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.agadois{
+    font-family: idroid;
+    color: green;
+    background-image: linear-gradient(to right, rgba(93, 207, 93, 0.658), white);
+}
+
+#ola:visited{
+    color: black;
+}
+#ola:hover{
+    color: green;
+}
+
+.lista{
+    columns: 2;
+}
+.lista>ul{
+    list-style: none;
+    margin: auto; 
+}
+.lista>ul>a:visited{
+    color: black;
+    
+}
+#video{
+    background-color: rgb(61, 128, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#final{
+    background-color: rgba(92, 151, 92, 0.418);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+}
+#final>h3{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 10px, 10px, 0px, 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(78, 129, 0);
+    padding: 5px;
+    margin: 10px;
+    font-size: 0.8em;
+}
